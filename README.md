@@ -15,7 +15,7 @@ Set up a python environment and download the Unity environment by following step
 
 ## Installation
 
-To run the DQN solution code, download the following files and place them in the directory with the Unity Banana Game folder:
+To run the DQN solution code, download the following files and place them in the same directory:
     
     Navigation.ipynb
     dqn_agent.py
