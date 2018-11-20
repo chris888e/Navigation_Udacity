@@ -9,9 +9,9 @@ class QNetwork(nn.Module):
 
         super(QNetwork, self).__init__()
         self.seed = torch.manual_seed(seed)
-
-        self.fc1 = torch.nn.Linear(state_size, 32)
-        self.fc2 = torch.nn.Linear(32, 32)
+        
+        self.fc1 = torch.nn.Linear(state_size, 64)
+        self.fc2 = torch.nn.Linear(64, 32)
         self.fc3 = torch.nn.Linear(32, action_size)
 
 
