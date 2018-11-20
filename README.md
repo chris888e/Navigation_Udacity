@@ -7,7 +7,7 @@ This repository contains a solution for the Unity "Bananas" game. The object of 
     Turn Left
     Turn Right
 
-The solution employs a Deep Q Network (DQN) in which a neural netwok is trained to return the best action (output) given an input state. The game is considered solved when the game playing "agent" is able to average a score of +13 over 100 consecutive episodes.
+The solution employs a Deep Q-Network (DQN) in which a neural network is trained to return the action values for each action given an input state. By selecting the action with the highest value, the game playing "agent" figures to maximize its score, however, the agent continuously explores its options by means of the "epsilon greedy strategy”. The game is considered solved when the agent is able to achieve and average score of +13 over 100 consecutive episodes.
 
 ## Dependencies
 
